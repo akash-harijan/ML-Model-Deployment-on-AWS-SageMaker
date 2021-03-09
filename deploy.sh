@@ -5,10 +5,11 @@ create_docker=1
 upload_docker=0
 
 
-echo Creating Docker ------------------------------------------------------------
 
 if [[ $create_docker -eq 1 ]]
 then
+  echo Creating Docker ------------------------------------------------------------
+
   TAG=latest
   SERVING_REPOSITORY=cataract-detection
 
@@ -19,6 +20,7 @@ fi
 if [[ $upload_docker -eq 1 ]]
 then
   echo Pushing to AWS ------------------------------------------------------------
+
   ECR_REPO_NAME='ecr-name'
   ECR_REPO_TAG='test'
 
