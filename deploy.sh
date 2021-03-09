@@ -19,7 +19,7 @@ fi
 if [[ $upload_docker -eq 1 ]]
 then
   echo Pushing to AWS ------------------------------------------------------------
-  ECR_REPO_NAME='311758178562.dkr.ecr.us-east-1.amazonaws.com/akash-testing'
+  ECR_REPO_NAME='ecr-name'
   ECR_REPO_TAG='test'
 
   output=$(aws ecr get-login --no-include-email)
