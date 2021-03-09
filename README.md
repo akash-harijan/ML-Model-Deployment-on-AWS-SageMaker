@@ -16,8 +16,8 @@ Ensure that awscli is installed, if not then install it
 #### DL-Model
 
 ML model used here is cataract-detection, trained in keras. But any other model can be used by updating the code in 
-folder CataractDetection. Weights of used model can be found in this repository. This model is encapusalted in the
-Flask api with required format to deploy a model in sagemaker.
+folder CataractDetection. Weights of used model can be found here, [link]([here][https://raw.githubusercontent.com/akash-harijan/cataract-detection/master/models/final-700imgs.h5]
+). This model is encapusalted in the Flask api with required format to deploy a model in sagemaker.
 
 #### Dockerizatoin
 
@@ -63,3 +63,5 @@ To invoke the sagemaker endpoint use the script sagemaker_testing.py. But to use
 `pip install boto3`
 
 `python sagemaker_testing.py`
+
+[https://raw.githubusercontent.com/akash-harijan/cataract-detection/master/models/final-700imgs.h5]: https://raw.githubusercontent.com/akash-harijan/cataract-detection/master/models/final-700imgs.h5
