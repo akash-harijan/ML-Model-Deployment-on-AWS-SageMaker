@@ -1,7 +1,7 @@
 # ML-Model-Deployment-on-AWS-SageMaker
 
 Due to the scarcity of online resources about deployment of already trained ML model on AWS SageMaker, 
-this project  except deployment using ipython notebooks. Notebook method doesn't provide flexibility.
+this project has been uploaded to github. It elaborates the way of deployment of ML models on SageMaker except deployment using ipython notebooks. Notebook method doesn't provide flexibility.
 
 ## Installations
 
