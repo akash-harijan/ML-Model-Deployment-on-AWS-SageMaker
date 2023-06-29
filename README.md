@@ -16,8 +16,7 @@ Ensure that awscli is installed, if not then install it
 #### DL-Model
 
 ML model used here is cataract-detection, trained in keras. But any other model can be used by updating the code in 
-folder CataractDetection. Weights of used model can be found here, [link](https://raw.githubusercontent.com/akash-harijan/cataract-detection/master/models/final-700imgs.h5)
-). This model is encapusalted in the Flask api with required format to deploy a model in sagemaker.
+folder CataractDetection. Weights of used model can be found here, [link](https://raw.githubusercontent.com/akash-harijan/cataract-detection/master/models/final-700imgs.h5). This model is encapusalted in the Flask api with required format to deploy a model in sagemaker.
 
 #### Dockerizatoin
 
